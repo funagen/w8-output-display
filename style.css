@@ -1,0 +1,96 @@
+body{
+    background-color: #000033;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.wrapper > .ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+.wrapper > ul > li {
+    margin: 0;
+    padding: 0;
+  }
+.wrapper > .grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+ .wrapper > .grid > li {
+    min-height: 50px;
+    margin:5px;
+    background: rgb(228, 78, 103);
+    border-radius: 5px;
+    border: 1px solid;
+  }
+  .wrapper > .grid-col-2 > li {
+width: 33.3%;
+}
+.wrapper > .grid-col-3 > li {
+width: 25%;
+}
+.wrapper > .grid-col-4 > li {
+width: 20%;
+  }
+
+  /* 横２　×　横２ */
+  .wrapper2 > .ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+.wrapper2 > ul > li {
+    margin: 0;
+    padding: 0;
+  }
+.wrapper2 > .grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+.wrapper2 > .grid > li {
+    min-height: 50px;
+    margin:5px;
+    background: rgb(247, 5, 45);
+    border-radius: 5px;
+    border: 1px solid;
+  }
+.wrapper2 > .grid-col-2 > li {
+width: 33.3%;
+}
+
+
+/* 横６　×　横１ */
+.wrapper3 > .ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+.wrapper3 > ul > li {
+    margin: 0;
+    padding: 0;
+  }
+.wrapper3 > .grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+ .wrapper3 > .grid > li {
+    min-height: 50px;
+    margin:5px;
+    background: rgb(203, 240, 17);
+    border-radius: 5px;
+    border: 1px solid;
+  }
+  .wrapper3 > .grid-col-1 > li {
+width: 50%;
+}
+
+a{
+    text-decoration: none;
+}
